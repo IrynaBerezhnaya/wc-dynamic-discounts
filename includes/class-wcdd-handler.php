@@ -5,16 +5,16 @@
  * Hooks into the cart calculation process to apply dynamic
  * discounts based on the total number of items in the cart.
  *
- * @class   Dynamic_Discounts_Handler
+ * @class   WCDD_Handler
  * @package wc-dynamic-discounts
  */
 
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Dynamic_Discounts_Handler class.
+ * WCDD_Handler class.
  */
-class Dynamic_Discounts_Handler {
+class WCDD_Handler {
 	/**
 	 * Constructor function to add action hook for applying discounts.
 	 *

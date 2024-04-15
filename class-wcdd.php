@@ -26,8 +26,8 @@ class WCDD {
 		require_once 'includes/class-wcdd-settings.php';
 
 		// Initialize classes.
-		new Dynamic_Discounts_Settings();
-		new Dynamic_Discounts_Handler();
+		new WCDD_Settings();
+		new WCDD_Handler();
 	}
 }
 

@@ -5,17 +5,17 @@
  * Initializes the WooCommerce settings tab for dynamic discounts, including
  * adding the settings tab, displaying settings, and saving settings.
  *
- * @class   Dynamic_Discounts_Settings
+ * @class   WCDD_Settings
  * @package wc-dynamic-discounts
  */
 
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Dynamic_Discounts_Settings class.
+ * WCDD_Settings class.
  */
 
-class Dynamic_Discounts_Settings {
+class WCDD_Settings {
 	/**
 	 * Constructor.
 	 *
