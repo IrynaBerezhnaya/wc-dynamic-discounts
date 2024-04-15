@@ -22,8 +22,8 @@ class WCDD {
 	 * Initializes the plugin.
 	 */
 	public function initialize_plugin() {
-		require_once 'includes/class-wcdd-handler.php';
-		require_once 'includes/class-wcdd-settings.php';
+		require_once WCDD_PLUGIN_PATH . 'includes/class-wcdd-handler.php';
+		require_once WCDD_PLUGIN_PATH . 'includes/class-wcdd-settings.php';
 
 		// Initialize classes.
 		new WCDD_Settings();
